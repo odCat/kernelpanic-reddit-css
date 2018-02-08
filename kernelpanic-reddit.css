@@ -1,43 +1,25 @@
 /* Header */
 #header {
 	height: 200px;
-	background-image: url(https://i.imgur.com/S9pNJfk.jpg);
+	background-image: url(htps://i.imgur.com/S9pNJfk.jpg);
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
+	border-bottom: 1px solid black;
 }
 
-#sr-header-area {
-	background-color: #6f6f6f;
-}
-
-#sr-header-area .selected a {
-	color: black;
-}
-
+#rd-header-area,
 #sr-more-link {
 	background-color: #6f6f6f;
 }
-
-.separator {
-	color: black;
-}
-
-/* #rd-header-area, */
-/* .sr-list, */
-/* .dropdown.srdrop, */
-/* .sr-more-link { */
-/* 	background-color: #6f6f6f; */
-/* } */
 
 .dropdown.srdrop .selected {
 	background-image: url(https://i.imgur.com/uxbEnWQ.gif);
 }
 
-/* .sr-bar, */
-/* .separator, */
-/* .choice { */
-/* 	color: black; */
-/* } */
+.separator,
+#sr-header-area .selected a {
+	color: black;
+}
 
 /* Bottom left menu - header */
 #header-bottom-left {
@@ -45,35 +27,14 @@
 	bottom:0%;
 }
 
-/* KernelPanicPodcast in white */
 .pagename a {
 	color: white;
 }
 
-/* .tabmenu li.selected a { */
-/* 	color: black; */
-/* 	background-color: lightgrey; */
-/* 	border: 1px solid #5f99cf; */
-/* 	border-bottom: 1px solid lightgrey; */
-/* } */
+.tabmenu li. a {
+	color: black;
+}
 
-/* /1* Bottom right menu - header *1/ */
-/* #header-bottom-right { */
-/* 	background-color: #6f6f6f; */
-/* } */
-
-/* /1* Body *1/ */
-/* body, */
-/* .side { */
-/* 	background-color: lightgrey; */
-/* } */
-
-/* .entry, */
-/* .button, */
-/* .tagline { */
-/* 	color: black; */
-/* } */
-
-/* .textarea { */
-/* 	background: #fafafa; */
-/* } */
+.tabmenu li.selected a{
+	border: 1px solid black;
+}
