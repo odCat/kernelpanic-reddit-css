@@ -31,6 +31,9 @@
 	bottom:0%;
 }
 
+#header-img.default-header {
+	-webkit-filter: drop-shadow(5px 5px 5px #ffffff);
+}
 .pagename a {
 	color: white;
 }

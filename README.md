@@ -10,3 +10,7 @@ css.attr({
       type: "text/css",
       href: "https://cdn.rawgit.com/odCat/kernelpanic-reddit-css/9309def4/kernelpanic-reddit.css"
 });
+
+# RawGit serves raw files directly from GitHub with proper Content-Type headers
+#  use to generate the href value passed to the above jQuery command
+https://rawgit.com/
