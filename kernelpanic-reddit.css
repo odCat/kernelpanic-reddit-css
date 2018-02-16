@@ -7,6 +7,7 @@
 	border-bottom: 1px solid black;
 }
 
+#sr-more-link,
 .dropdown.srdrop,
 .sr-list {
 	background-color: #6f6f6f;
@@ -21,14 +22,14 @@
 }
 
 /* Bottom left menu - header */
-/* #header-bottom-left { */
-/* 	position: absolute; */
-/* 	bottom:0%; */
-/* } */
+#header-bottom-left {
+	position: absolute;
+	bottom:0%;
+}
 
-/* .pagename a { */
-/* 	color: white; */
-/* } */
+.pagename a {
+	color: white;
+}
 
 /* .tabmenu li. a { */
 /* 	color: black; */
