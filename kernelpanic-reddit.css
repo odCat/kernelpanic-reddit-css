@@ -21,6 +21,10 @@
 	color: black;
 }
 
+#sr-header-area .selected a {
+	color: black;
+}
+
 /* Bottom left menu - header */
 #header-bottom-left {
 	position: absolute;
@@ -31,10 +35,7 @@
 	color: white;
 }
 
-/* .tabmenu li. a { */
-/* 	color: black; */
-/* } */
-
-/* .tabmenu li.selected a { */
-/* 	border: 1px solid black; */
-/* } */
+.tabmenu li.selected a {
+	border: 1px solid black;
+	border-bottom-color: white;
+}
