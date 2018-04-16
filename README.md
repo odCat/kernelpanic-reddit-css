@@ -1,16 +1,16 @@
 # kernelpanic-reddit-css
 First task on the KernelPanicPodcast: Create a style sheet for the subreddit
 
-# jQuery to load the CSS file
-#  works on Chrome
-$("head").append("<link>");
-var css = $("head").children(":last");
-css.attr({
-      rel:  "stylesheet",
-      type: "text/css",
-      href: "https://cdn.rawgit.com/odCat/kernelpanic-reddit-css/9309def4/kernelpanic-reddit.css"
-});
+# jQuery command to load the CSS file:
+Important: Change the href attribute with the latest value; see RawGit below.
+```
+$("head").append('<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/odCat/kernelpanic-reddit-css/eac8c283/kernelpanic-reddit.css" />');
+```
+# RawGit: https://rawgit.com/
+RawGit serves raw files directly from GitHub with proper Content-Type headers.
+It can be used to generate the href value passed to the jQuery command mentioned above
 
-# RawGit serves raw files directly from GitHub with proper Content-Type headers
-#  use to generate the href value passed to the above jQuery command
-https://rawgit.com/
+# Command to load jQuery if/when neccessary:
+```
+$("head").append('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>');
+```
