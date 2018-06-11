@@ -14,3 +14,5 @@ It can be used to generate the href value passed to the jQuery command mentioned
 ```
 $("head").append('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>');
 ```
+# TODO
+Create a light theme. The a background image is already uploaded: https://imgur.com/a/BxkxJVD.
