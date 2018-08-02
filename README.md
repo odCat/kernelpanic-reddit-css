@@ -1,4 +1,4 @@
-# kernelpanic-reddit-css
+# Introduction
 First task on the KernelPanicPodcast: Create a style sheet for the subreddit
 
 # jQuery command to load the CSS file:
@@ -14,5 +14,10 @@ It can be used to generate the href value passed to the jQuery command mentioned
 ```
 $("head").append('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>');
 ```
+
+# Picture INFO
+The picture used is free under the Pexels License. Click [here](https://www.pexels.com/photo/interior-of-office-building-325229/) for the link.
+Author: [Manuel Geissinger](https://www.pexels.com/@artunchained)
+
 # TODO
-Create a light theme. The a background image is already uploaded: https://imgur.com/a/BxkxJVD.
+Find a way to improve the quality of the inverted image.
