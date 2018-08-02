@@ -1,7 +1,7 @@
 /* Header */
 #header {
 	height: 200px;
-	background-image: url(https://i.imgur.com/P3Impw9.jpg);
+	background-image: url("https://i.imgur.com/P3Impw9.jpg");
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
 	border-bottom: 1px solid black;
